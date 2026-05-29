@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Con Corazón — Supporting Elder Care in Arcatao, El Salvador</title>
+  <meta name="description" content="Con Corazón supports Casa Hogar San Romero de América, a locally led elder care program in Arcatao, El Salvador.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ─── Navigation ────────────────────────────────────────────── -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-logo">
+      <a href="index.html" aria-label="Con Corazón home">
+        <svg width="310" height="66" viewBox="50 0 380 80" role="img">
+          <title>Con Corazón logo</title>
+          <g transform="translate(95, 40)">
+            <path d="M0,-28 C0,-28 -6,-38 -16,-38 C-28,-38 -37,-29 -37,-18 C-37,-7 -28,4 -16,13 C-8,19 0,25 0,25 C0,25 8,19 16,13 C28,4 37,-7 37,-18 C37,-29 28,-38 16,-38 C6,-38 0,-28 0,-28 Z" fill="#6096BA"/>
+            <path d="M0,-16 C0,-16 -3,-22 -9,-22 C-16,-22 -21,-17 -21,-10 C-21,-3 -16,3 -9,8 C-4,12 0,15 0,15 C0,15 4,12 9,8 C16,3 21,-3 21,-10 C21,-17 16,-22 9,-22 C3,-22 0,-16 0,-16 Z" fill="#E7ECEF"/>
+          </g>
+          <text x="143" y="53" font-family="'Barlow Condensed', sans-serif" font-weight="700" font-size="42" letter-spacing="3" fill="#274C77">CON CORAZÓN</text>
+        </svg>
+      </a>
+    </div>
+
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.getElementById('nav-links').classList.toggle('open');">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <!-- <li><a href="donate.html">Donate</a></li> -->
+      <li><a href="about.html">About</a></li>
+      <li>
+        <span class="lang-toggle">
+          <a href="index.html" class="lang-active">EN</a>
+          <span class="lang-sep">/</span>
+          <a href="../es/index.html" class="lang-inactive">ES</a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ─── Section 1: Hero ───────────────────────────────────────── -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>In rural El Salvador, too many elders grow old alone. Con Corazón helps change that.</h1>
+      <!-- <a href="donate.html" class="btn-primary">Donate</a> -->
+    </div>
+  </section>
+
+  <!-- ─── Section 2: The Problem ───────────────────────────────── -->
+  <section class="section-problem" aria-labelledby="problem-heading">
+    <div class="inner">
+      <h2 class="section-header" id="problem-heading">Welcome to Casa Hogar</h2>
+      <p>In El Salvador, it is tradition for adult children to care for their aging parents. But in the small rural town of Arcatao, migration and the legacy of a 12-year civil war have left roughly 200 seniors without that support. <strong>Casa Hogar</strong> was created by local leaders to fill that void, and Con Corazón helps fund their work.</p>
+    </div>
+  </section>
+
+  <!-- ─── Section 3: Stat Cards ─────────────────────────────────── -->
+  <section class="section-stats" aria-labelledby="stats-heading">
+    <div class="inner">
+      <h2 class="section-header" id="stats-heading">Casa Hogar by the Numbers</h2>
+      <div class="stat-grid">
+
+        <div class="stat-card">
+          <i class="fa-solid fa-house" aria-hidden="true"></i>
+          <div class="stat-number">150+</div>
+          <div class="stat-label">In-home nurse visits annually</div>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+          <div class="stat-number">45+</div>
+          <div class="stat-label">Seniors attend the center each month</div>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
+          <div class="stat-number">25+</div>
+          <div class="stat-label">Seniors in serious health situations assisted</div>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+          <div class="stat-number">40+</div>
+          <div class="stat-label">Seniors receive food assistance</div>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
+          <div class="stat-number">60+</div>
+          <div class="stat-label">Seniors provided with medical equipment</div>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-person-walking" aria-hidden="true"></i>
+          <div class="stat-number">20+</div>
+          <div class="stat-label">Seniors join monthly group walks</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Section 4: What Is Casa Hogar ────────────────────────── -->
+  <section class="section-casa" aria-labelledby="casa-heading">
+    <div class="inner">
+      <h2 class="section-header" id="casa-heading">How Casa Hogar Serves the Community</h2>
+      <div class="casa-columns">
+
+        <div class="casa-col">
+          <h3>The Senior Center</h3>
+          <p>Casa Hogar's senior center in Arcatao is a gathering place where older adults come together for health workshops, exercise classes, aerobics, physiotherapy, and social activities. Medical checkups are offered onsite. Health fairs take place every two months, serving 35 seniors at a time with dental, nutritional, and medical care.</p>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/SIsuUfi-Hgg" title="Casa Hogar Senior Center" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="casa-col">
+          <h3>Home Visits</h3>
+          <p>For seniors who cannot travel, Casa Hogar's nurse visits them at home, checking blood pressure, reviewing medications, and delivering food, adult diapers, and essential supplies. Among those served is Juana Echeverría, 104 years old, who receives regular visits from the Casa Hogar team.</p>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/_XHFitrFmFE" title="Casa Hogar Home Visits" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Section 5: Testimonials ──────────────────────────────── -->
+  <section class="section-testimonials" aria-labelledby="testimonials-heading">
+    <div class="inner">
+      <h2 class="section-header" id="testimonials-heading">In Their Own Words</h2>
+
+      <div class="pull-quote">
+        <blockquote>"Casa Hogar helps in different ways &mdash; it helps mental health, personal health, emotional health. To be united and to meet frequently, that serves a person."</blockquote>
+        <cite>— María, Casa Hogar senior</cite>
+      </div>
+
+      <div class="video-row">
+
+        <div>
+          <div class="video-label">María Magdalena</div>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/TL18-cvgX3M" title="Testimonial: María Magdalena" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div>
+          <div class="video-label">Rogelio</div>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/rssezX01cHo" title="Testimonial: Rogelio" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div>
+          <div class="video-label">María</div>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/4YFCZ-IVtp0" title="Testimonial: María" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Section 6: How We Work ───────────────────────────────── -->
+  <section class="section-how" aria-labelledby="how-heading">
+    <div class="inner">
+      <h2 class="section-header section-header--white" id="how-heading">Locally Led. Donor Funded.</h2>
+      <p>Casa Hogar is led and operated by a dedicated local team of women in Arcatao. Con Corazón supports their work from the United States through fundraising, donor relations, and financial oversight. Funds are transferred through our fiscal sponsor, the Seattle International Foundation, to FUDEMS, a local nonprofit partner in Arcatao. Saint Joseph's University in Philadelphia funds medical equipment and supplies. Together, we make sure Casa Hogar's staff have what they need to serve the elders of their community.</p>
+    </div>
+  </section>
+
+  <!-- ─── Section 7: Donate CTA ────────────────────────────────── -->
+  <section class="section-donate" aria-labelledby="donate-heading">
+    <div class="inner">
+      <h2 class="section-header" id="donate-heading">Fund the People Who Make It Possible</h2>
+      <div class="team-photo-break">
+        <img src="../images/Casa_Hogar_Team.jpg" alt="The Casa Hogar team in Arcatao, El Salvador">
+      </div>
+      <p>Local staff are the heart of the activities, services, care, and community building provided by Casa Hogar. Donations to Con Corazón fund their salaries and other Casa Hogar operational expenses.</p>
+      <p>Con Corazón will conduct fundraising activities in fall 2026. Stay tuned for details on how you can support Casa Hogar!</p>
+      <!-- <a href="donate.html" class="btn-donate">Donate Now</a> -->
+    </div>
+  </section>
+
+  <!-- ─── Section 8: Partners ──────────────────────────────────── -->
+  <section class="section-partners" aria-labelledby="partners-heading">
+    <div class="inner">
+      <h2 class="section-header" id="partners-heading">Our Partners and Supporters</h2>
+      <div class="partner-row">
+
+        <a href="https://www.sju.edu/" class="partner-logo" target="_blank" rel="noopener" aria-label="Saint Joseph's University">
+          <img src="../images/saint-josephs-university.png" alt="Saint Joseph's University">
+        </a>
+
+        <a href="https://www.ectourselsalvador.com/" class="partner-logo" target="_blank" rel="noopener" aria-label="EC Tours El Salvador">
+          <img src="../images/EC%20Tours.png" alt="EC Tours El Salvador">
+        </a>
+
+        <a href="https://www.cloudcitycoffeeroasting.com/" class="partner-logo" target="_blank" rel="noopener" aria-label="Cloud City Coffee Roasters">
+          <img src="../images/CloudCityRoasters.png" alt="Cloud City Coffee Roasters">
+        </a>
+
+        <div class="partner-logo" aria-label="Sustainable Livelihoods Initiative">
+          <img src="../images/Sustainable%20Livelihoods%20Initiative.png" alt="Sustainable Livelihoods Initiative">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ───────────────────────────────────────────────── -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <svg width="280" height="60" viewBox="50 0 380 80" role="img" aria-label="Con Corazón logo">
+          <title>Con Corazón</title>
+          <g transform="translate(95, 40)">
+            <path d="M0,-28 C0,-28 -6,-38 -16,-38 C-28,-38 -37,-29 -37,-18 C-37,-7 -28,4 -16,13 C-8,19 0,25 0,25 C0,25 8,19 16,13 C28,4 37,-7 37,-18 C37,-29 28,-38 16,-38 C6,-38 0,-28 0,-28 Z" fill="#A3CEF1"/>
+            <path d="M0,-16 C0,-16 -3,-22 -9,-22 C-16,-22 -21,-17 -21,-10 C-21,-3 -16,3 -9,8 C-4,12 0,15 0,15 C0,15 4,12 9,8 C16,3 21,-3 21,-10 C21,-17 16,-22 9,-22 C3,-22 0,-16 0,-16 Z" fill="#274C77"/>
+          </g>
+          <text x="143" y="53" font-family="'Barlow Condensed', sans-serif" font-weight="700" font-size="42" letter-spacing="3" fill="#ffffff">CON CORAZÓN</text>
+        </svg>
+        <p class="footer-tagline">Supporting locally led elder care in Arcatao, El Salvador</p>
+        <a href="mailto:info@concorazon.org">info@concorazon.org</a>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-form-card">
+          <h4>Stay Informed</h4>
+          <p>Join our mailing list to receive updates on Casa Hogar and Con Corazón's work.</p>
+          <form class="signup-form" action="#" method="post" aria-label="Mailing list signup">
+            <div class="signup-row">
+              <input type="text" name="first_name" placeholder="First Name" required>
+              <input type="text" name="last_name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="https://www.youtube.com/@concorazon" target="_blank" rel="noopener" aria-label="YouTube">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/ConCorazonElSalvador" target="_blank" rel="noopener" aria-label="Facebook">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/concorazon_es/" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.tiktok.com/@concorazon_es" target="_blank" rel="noopener" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <script>document.write(new Date().getFullYear())</script> Con Corazón. Fiscal sponsor: Seattle International Foundation.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

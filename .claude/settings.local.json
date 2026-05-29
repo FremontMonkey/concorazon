@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from PIL import Image; img = Image.open\\('c:/Users/brian/OneDrive/ES/Con Corazon/Website/concorazon/images/Con_Corazon_About.jpg'\\); print\\(img.size\\)\")"
+    ]
+  }
+}
