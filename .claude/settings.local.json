@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c \"from PIL import Image; img = Image.open\\('c:/Users/brian/OneDrive/ES/Con Corazon/Website/concorazon/images/Con_Corazon_About.jpg'\\); print\\(img.size\\)\")"
+      "Bash(python3 -c \"from PIL import Image; img = Image.open\\('c:/Users/brian/OneDrive/ES/Con Corazon/Website/concorazon/images/Con_Corazon_About.jpg'\\); print\\(img.size\\)\")",
+      "PowerShell(python -c \"import cairosvg; print\\('cairosvg ok'\\)\" 2>$null)",
+      "PowerShell(python -c \"from PIL import Image; print\\('Pillow ok'\\)\" 2>$null)",
+      "PowerShell(python -c \"import svglib; print\\('svglib ok'\\)\" 2>$null)",
+      "PowerShell(pip install Pillow --quiet 2>&1)"
     ]
   }
 }
