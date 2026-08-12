@@ -234,7 +234,7 @@ Use YouTube iframe embed. Width 100%, aspect ratio 16:9.
 **Body copy (Poppins, white):**
 > Casa Hogar's local staff are the heart of everything you have seen. Their salaries are what donor support makes possible. Our 2026 staffing goal is $9,378. Every contribution brings us closer.
 >
-> Your donation is tax deductible and processed securely through our fiscal sponsor, the Seattle International Foundation.
+
 
 **CTA Button:** "Donate Now" — links to `donate.html`. White background, Dusk Blue text, Barlow Condensed Bold. Prominent size.
 
@@ -278,7 +278,7 @@ Link to Con Corazón YouTube channel.
 Icon: `fa-youtube` Font Awesome icon beside the link.
 
 **Bottom bar:**
-> © 2026 Con Corazón. Fiscal sponsor: Seattle International Foundation.
+> © 2026 Con Corazón
 Centered, smaller Poppins text.
 
 ---
