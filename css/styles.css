@@ -995,3 +995,123 @@ section { padding: 5rem 2rem; }
   .photo-placeholder { width: 160px; height: 160px; }
   .team-photo { width: 160px; height: 160px; }
 }
+
+/* ─── Sip & Give Page ────────────────────────────────────────────── */
+
+.sipgive-hero {
+  background: var(--platinum);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.sipgive-hero img {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 12px 32px rgba(39,76,119,0.28);
+}
+
+.section-sipgive { background: #fff; }
+
+.sipgive-inner { max-width: 760px; margin: 0 auto; }
+
+.sipgive-inner h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.9rem, 4vw, 2.75rem);
+  color: var(--dusk-blue);
+  text-align: center;
+  margin-bottom: 0.4rem;
+  text-wrap: balance;
+}
+
+.sipgive-subhead {
+  text-align: center;
+  font-style: italic;
+  color: var(--steel-blue);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sipgive-datetime {
+  display: block;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--dusk-blue);
+  background: var(--platinum);
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  margin: 0 auto 2.5rem;
+  width: fit-content;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.sipgive-inner p {
+  color: var(--dusk-blue);
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.sipgive-h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--dusk-blue);
+  margin: 0 0 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(39,76,119,0.15);
+}
+
+.sipgive-wines {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+}
+
+.sipgive-wines li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--platinum);
+  border-radius: 8px;
+  padding: 0.85rem 1.25rem;
+  color: var(--dusk-blue);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.sipgive-wines li i { color: var(--steel-blue); font-size: 1.1rem; }
+
+.sipgive-cta {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.sipgive-cta p { margin-bottom: 1rem; }
+
+.sipgive-cta-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.sipgive-note {
+  text-align: left;
+  font-size: 0.88rem;
+  color: var(--grey-olive);
+  margin-top: 1.5rem;
+}
+
+.sipgive-note + .sipgive-note { margin-top: 0.5rem; }
+
+@media (max-width: 767px) {
+  .sipgive-hero { padding: 3rem 1.25rem; }
+  .sipgive-h2 { margin-top: 0.5rem; }
+}
